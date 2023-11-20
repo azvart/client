@@ -1,0 +1,1 @@
+import { cookies } from "next/headers";export function getExistToken(){    return cookies().get('next-auth.session-token')?.value;}
